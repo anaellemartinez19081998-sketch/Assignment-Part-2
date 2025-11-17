@@ -18,7 +18,10 @@ This openness allows more nuanced analysis but I find myself uncertain whether m
 
 What I couldn’t Encode
 
-Without ‘seg’, sentence boundaries, or ‘mentionned’ I couldn’t perform close reading through markup. My DTD completely lacked analytical support. 
+One limitation I encountered is that TEI_all does not provide a dedicated mechanism for validating or standardising my interpretive categories.
+I could assign labels such as biological_determinism, irony, paradox, or isolation through @type and @ana, but TEI_all does not restrict or define these values. Nothing prevents me from inventing inconsistent or ambiguous analytical terms, and the schema cannot warn me when two labels overlap, contradict each other, or belong to different analytical levels.
+
+This matters for my project because I was explicitly trying to trace argumentative structure and rhetorical phenomena across texts. But without structure, it might seem messy and illogical between elements. 
 
 Key Learning
 
