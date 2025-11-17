@@ -5,8 +5,16 @@ My assignment 1 DTD and TEI_all share core structural approaches. Both use the s
 
 Differences
 
-The most significant difference I’ve seen in this assignment is the analytical granularity. My DTD allowed only allowed basic semantic markup. I had no mechanism for the interpretive work approach that I used for this Part 2. Reviewing my DTD now, I realize I had designed it just for the structure without any depth 
-TEI_all provided the element ‘seg’ with flexible @type attributes which I used throught the three samples. This allowed me to encode interpretive categories. However, I must highlight that this flexibility seems to me double-edged: attributes like @type, @ana, and @seg accept any value without controlled vocabularies. Unlike my DTD’s strict values, TEI_all doesn’t constrain interpretive categories. This openness allows more nuanced analysis but I find myself uncertain whether my analytical terms are ‘correct’ or follow appropriate conventions. 
+1)The use of <seg> with flexible @type attributes.
+I used it to encode interpretive categories (irony, paradox, biological determinism, etc.) across the three samples. Something my DTD simply could not express, since it had no element reserved for marking analytical layers in the text.
+
+2)The possibility of adding analytical attributes such as @ana.
+TEI_all helps me associate  interpretive information ( like marking scale, rhetorical function, thematic role) without altering the structural hierarchy. My DTD lacked any parallel mechanism for representing layered or overlapping analyses.
+
+3)The ability to embed detailled components (e.g., <term>, <mentioned>, <name>, <placeName>, <pc>, etc.) within sentences.
+TEI_all supports a extensive set of inline elements that enabled me to annotate concepts, entities, and discourse markers; in contrast, my DTD only defined broad structural units and prevented this level of detail.
+This openness allows more nuanced analysis but I find myself uncertain whether my analytical terms are ‘correct’ or follow appropriate conventions. 
+
 
 What I couldn’t Encode
 
