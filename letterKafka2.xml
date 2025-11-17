@@ -29,7 +29,6 @@
                 <idno type="ISBN">0-8052-0885-2</idno>
                 <availability status="restricted">
                     <p>© 1990 Random House, Inc.</p>
-                    <p>Printed in the U.S.A.</p>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -78,7 +77,7 @@
         </profileDesc>
         <encodingDesc>
             <projectDesc>
-                <p>This project was made to experiment with TEI in order to see if it was possible adding a (my) literary analysis to the text. I've tried breaking the letter into sentences to analyze Kafka's style. For the analysis, I've chosen to use 'seg' because it allows more freedom than 'ana', in my understanding.</p>
+                <p>This project was made to experiment with TEI in order to see if it was possible adding a (my) literary analysis to the text. I've tried breaking the letter into sentences to analyze Kafka's style.</p>
             </projectDesc>
            
         </encodingDesc>
