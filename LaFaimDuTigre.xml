@@ -20,7 +20,7 @@
                 <edition>Collection Folio</edition>
             </editionStmt>
             <publicationStmt>
-                <publisher>Gallimard Education</publisher>
+                <publisher>Gallimard </publisher>
                 <pubPlace>Paris</pubPlace>
                 <date when="1976">1976</date>
                 <availability status="restricted">
@@ -33,7 +33,7 @@
                     <author>René Barjavel</author>
                     <title>La Faim du Tigre</title>
                     <series>Collection Folio</series>
-                    <publisher>Gallimard Education</publisher>
+                    <publisher>Gallimard </publisher>
                     <pubPlace>Paris</pubPlace>
                     <date when="1976">1976</date>
                 </bibl>
@@ -78,16 +78,16 @@
     <text>
         <body>
             <div>
-                <p n="1">
+                <p>
                     <seg type="biological_determinism">
-                    <s n="1">
+                    <s>
                             Poussés par les ordres irrésistibles inscrits dans leurs cellules et dont le printemps déclenche la mise en action, des <num ana="mass_scale">milliards</num> de végétaux mûrissent leur pollen et tendent leurs pistils, des <num ana="mass_scale">milliards</num> de mâles ensemencent les femelles sans savoir qu'ils vont devenir pères.</s> 
-                    <s n="2">La plupart, d'ailleurs, ignorent ce qu'est une progéniture.</s> 
-                    <s n="3">Leur acte accompli, ils s'éloignent, quand ils ne sont pas mis en pièces par les femelles.</s> 
+                    <s>La plupart, d'ailleurs, ignorent ce qu'est une progéniture.</s> 
+                    <s>Leur acte accompli, ils s'éloignent, quand ils ne sont pas mis en pièces par les femelles.</s> 
                         </seg>
-                    <s n="4">Il semble — il semble : nous ne pouvons être sûrs de rien en ce qui concerne la <term type="concept">conscience animale</term> et nous sommes encore plus ignorants du <term type="concept">psychisme végétal</term> <pc>—</pc> <seg type="human_exceptionalism">il semble que l'homme soit le seul parmi les vivants à établir une relation de cause à effet entre l'acte sexuel et l'enfantement.</seg></s> 
-                    <s n="5"> <seg type="empirical_evidence">Certaines tribus australiennes</seg> n'ont même pas encore, <gloss>paraît-il</gloss>, fait le rapprochement.</s> 
-                    <s n="6"> <seg type="irony">Quant aux hommes dits civilisés </seg>qui savent pertinemment que le sexe est l'instrument de la reproduction, ils sont cependant conditionnés de telle façon qu'ils oublient en général le but et se laissent tout bonnement tirer par le moyen, <mentioned>c'est-à-dire par le désir</mentioned>, <seg type="comparison">tout comme le <name type="animal">chat du square</name> ou le <name type="animal">cerf de <placeName>Chambord</placeName></name></seg>.</s>
+                    <s>Il semble — il semble : nous ne pouvons être sûrs de rien en ce qui concerne la <term type="concept">conscience animale</term> et nous sommes encore plus ignorants du <term type="concept">psychisme végétal</term> — <seg type="human_exceptionalism">il semble que l'homme soit le seul parmi les vivants à établir une relation de cause à effet entre l'acte sexuel et l'enfantement.</seg></s> 
+                    <s> <seg type="empirical_evidence">Certaines tribus australiennes</seg> n'ont même pas encore,paraît-il, fait le rapprochement.</s> 
+                    <s> <seg type="irony">Quant aux hommes dits civilisés </seg>qui savent pertinemment que le sexe est l'instrument de la reproduction, ils sont cependant conditionnés de telle façon qu'ils oublient en général le but et se laissent tout bonnement tirer par le moyen, <mentioned>c'est-à-dire par le désir</mentioned>, <seg type="comparison">tout comme le <name type="animal">chat du square</name> ou le <name type="animal">cerf de <placeName>Chambord</placeName></name></seg>.</s>
                 </p>
             </div>
         </body>
