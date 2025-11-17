@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Antigone - Extract (Pages 104-106)</title>
+                <author>
+                    <persName>
+                        <forename>Jean</forename>
+                        <surname>Anouilh</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp>TEI encoding by</resp>
+                    <name>Anaëlle Martinez</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>La Table Ronde</publisher>
+                <pubPlace>Paris</pubPlace>
+                <date when="1972">1972</date>
+                <availability status="restricted">
+                    <p>© Jean Anouilh. Encoded for educational purposes only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Jean Anouilh</author>
+                    <title>Antigone</title>
+                    <publisher>La Table Ronde</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1972">1972</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="antigone">
+                        <persName>Antigone</persName>
+                        <note>Protagonist</note>
+                    </person>
+                    <person xml:id="ismene">
+                        <persName>Ismène</persName>
+                        <note>Sister of Antigone</note>
+                    </person>
+                    <person xml:id="creon">
+                        <persName>Créon</persName>
+                        <note>King of Thebes, uncle of Antigone</note>
+                    </person>
+                </listPerson>
+            </particDesc>
+            <langUsage>
+                <language ident="fr">French</language>
+            </langUsage>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>In this encoding I wanted to highlight power dynamics and speech acts. I've focused on how the protagonist, Antigone, uses language to express rebellion and agressivity. I've marked speech acts (imperatives, rhetorical questions, declarations).</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+                
+                <pb n="104"/>
+                
+                <sp ana="power_struggle">
+                    <speaker> <persName>CRÉON</persName></speaker><stage>qui essaie de lui fermer la bouche de force.</stage>
+                    <p> <seg type="imperative">Vas-tu te taire, enfin, bon Dieu ?</seg></p>
+                </sp>
+                
+                <sp ana="resistance">
+                    <speaker> <persName>ANTIGONE</persName></speaker><stage>,se débat.</stage>
+                    <p> <seg type="imperative" subtype="insult">Allons vite,cuisinier ! Appelle tes gardes !</seg></p>
+                    <stage>La porte s'ouvre. Entre <persName>Ismène</persName>.</stage>
+                </sp>
+                
+                <sp ana="interuption">
+                    <speaker><persName>ISMÈNE</persName></speaker><stage>,dans un cri.</stage>
+                    <p><persName>Antigone</persName> !</p>
+                </sp>
+                
+                <sp>
+                    <speaker><persName>ANTIGONE</persName></speaker>
+                    <p> <seg type="rhetorical_question">Qu'est-ce que tu veux, toi aussi ?</seg></p>
+                </sp>
+                
+               
+                <sp>
+                    <speaker><persName>ISMÈNE</persName></speaker>
+                    <p><seg type="declaration"><persName>Antigone</persName>, pardon ! <persName>Antigone</persName>, tu vois, je viens, j'ai du courage. J'irai maintenant avec toi.</seg></p>
+                </sp>
+                
+                <sp ana="rejection">
+                    <speaker><persName>ANTIGONE</persName></speaker>
+                    <p> <seg type="rhetorical_question">Où iras-tu avec moi ?</seg></p>
+                </sp>
+                
+                <sp>
+                    <speaker><persName>ISMÈNE</persName></speaker>
+                    <p><seg type="declaration">Si vous la faites mourir, il faudra me faire mourir avec elle !</seg></p>
+                </sp>
+                
+                <pb n="105"/>
+                
+                <sp ana="intense_rejection">
+                    <speaker><persName>ANTIGONE</persName></speaker>
+                    <p> <seg type="interjection">Ah ! non. Pas maintenant. Pas toi !</seg> C'est moi, c'est moi seule. Tu ne te figures pas que tu vas venir mourir avec moi maintenant. Ce serait trop facile !</p>
+                </sp>
+                
+                <sp ana="plea">
+                    <speaker><persName>ISMÈNE</persName></speaker>
+                    <p>Je ne veux pas vivre si tu meurs, je ne veux pas rester sans toi !</p>
+                </sp>
+                
+                <sp ana="dismissal">
+                    <speaker><persName>ANTIGONE</persName></speaker>
+                    <p>Tu as choisi la vie et moi la mort.<seg type="imperative"> Laisse-moi maintenant avec tes jérémiades.</seg> Il fallait y aller <date>ce matin</date>, <seg type="physical_description"> quatre pattes, dans la nuit. Il fallait aller gratter la terre avec tes ongles pendant qu'ils étaient tout près et te faire empoigner par eux comme une voleuse !</seg></p>
+                </sp>
+                
+                <sp>
+                    <speaker><persName>ISMÈNE</persName></speaker>
+                    <p>Eh bien, j'irai <date>demain</date> !</p>
+                </sp>
+                
+                <sp>
+                    <speaker><persName>ANTIGONE</persName></speaker>
+                    <p> <seg type="rhetorical_question">Tu l'entends, <persName>Créon</persName> ? Elle aussi. Qui sait si cela ne va pas prendre à d'autres encore, en m'écoutant ? Qu'est-ce que tu attends pour me faire taire, qu'est-ce que tu attends pour</seg></p>
+                </sp>
+                
+                <pb n="106"/>
+                
+                <sp>
+                    <speaker><persName>ANTIGONE</persName></speaker>
+                    <p>appeler tes gardes ? Allons, <persName>Créon</persName>, un peu de courage, ce n'est qu'un mauvais moment à passer. Allons,<seg type="insult"> cuisinier,</seg> puisqu'il le faut !</p>
+                </sp>
+                
+        </body>
+    </text>
+</TEI>
