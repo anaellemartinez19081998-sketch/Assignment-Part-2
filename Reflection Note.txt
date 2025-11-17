@@ -1,11 +1,11 @@
 
 Similarities
 
-My assignement 1 DTD and TEI_all share core structural approaches. Both use the same teiHeader, especially since I was inspired by the TEI guidelines when I made my DTD. I had already understood that letters require elements for sender/receiver dynamics and the dating conventions. The basic architecture is almost identical. 
+My assignment 1 DTD and TEI_all share core structural approaches. Both use the same teiHeader, especially since I was inspired by the TEI guidelines when I made my DTD. I had already understood that letters require elements for sender/receiver dynamics and the dating conventions. The basic architecture is almost identical. 
 
 Differences
 
-The most significant difference I’ve seen in this assignement is the analytical granularity. My DTD allowed only allowed basic semantic markup. I had no mechanism for the interpretive work approach that I used for this Part 2. Reviewing my DTD now, I realize I had designed it just for the structure without any depth 
+The most significant difference I’ve seen in this assignment is the analytical granularity. My DTD allowed only allowed basic semantic markup. I had no mechanism for the interpretive work approach that I used for this Part 2. Reviewing my DTD now, I realize I had designed it just for the structure without any depth 
 TEI_all provided the element ‘seg’ with flexible @type attributes which I used throught the three samples. This allowed me to encode interpretive categories. However, I must highlight that this flexibility seems to me double-edged: attributes like @type, @ana, and @seg accept any value without controlled vocabularies. Unlike my DTD’s strict values, TEI_all doesn’t constrain interpretive categories. This openness allows more nuanced analysis but I find myself uncertain whether my analytical terms are ‘correct’ or follow appropriate conventions. 
 
 What I couldn’t Encode
