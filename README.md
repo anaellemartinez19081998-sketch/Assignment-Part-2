@@ -5,7 +5,7 @@ I've selected three samples:
 
 Franz Kafka's letter to Milena Jesenská (1920): A personal letter translated from German. This text allowed me to explore correspondence-specific TEI elements and how to analyze the text's patterns.
 
-René Barjavel's La Faim du Tigre (1966): A philosophical essay excerpt examining human sexuality and animal instinct. This argumentative text provided opportunities to encode rhetorical structure and track how philosophical arguments develop and reverse.
+René Barjavel's La Faim du Tigre (1966): A philosophical essay excerpt examining human sexuality and animal instinct. This argumentative text provided opportunities to encode rhetorical structure.
 
 Jean Anouilh's Antigone (1972): A confrontation (theatre) scene between Antigone and Créon. This theatrical text allowed me to try my hand at  dialogue markup and speech act analysis.
 
